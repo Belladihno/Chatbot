@@ -1,3 +1,5 @@
+import random
+
 conversation = [
     "Hello",
     "Hi there!",
@@ -9,4 +11,8 @@ conversation = [
     "Be right back"
 ]
 
-# write your code below
+
+print("Welcome to my first python chatbot😁")
+human_input = input()
+response = random.choice(conversation)
+print(response)
